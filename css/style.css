@@ -155,19 +155,6 @@ main {
   padding: 3rem 0 2.5rem;
 }
 
-.hero-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 0.35rem 1rem;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  margin-bottom: 1.5rem;
-}
-
 .hero h1 {
   font-size: clamp(1.8rem, 5vw, 2.6rem);
   font-weight: 800;
