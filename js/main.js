@@ -25,6 +25,7 @@
   if (pathname.includes("/terms")) current = "terms";
   else if (pathname.includes("/privacy")) current = "privacy";
   else if (pathname.includes("/refund")) current = "refund";
+  else if (pathname.includes("/delete-account")) current = "delete";
   document.querySelectorAll(".nav-links a[data-route]").forEach(function (link) {
     if (link.dataset.route === current) {
       link.classList.add("active");
